@@ -8,10 +8,10 @@
   --font-primary: 'Poppins', sans-serif;
   --font-secondary: 'Arvo', serif;
   --font-code: 'Roboto', monospace;
-  --bg-color: #00163f;
-  --font-color: #ffffff;
-  --btn-bg-color: #ffffff;
-  --accent-color: #be7efe;
+  --bg-color: gold;
+  --font-color: greenyellow;
+  --btn-bg-color: black;
+  --accent-color: greenyellow;
   --header-shadow: #000 0px 0px 5px;
 }
 
@@ -22,12 +22,12 @@
 }
 
 body {
-  background-color: var(--bg-color);
+  background-color: gold ;
   display: flex;
   flex-flow: column;
   height: 100vh;
-  color: var(--font-color);
-  font-family: var(--font-primary);
+  color: orange ;
+  font-family: black;
 }
 
 .container {
@@ -61,15 +61,15 @@ header .container {
 .btn {
   display: inline-block;
   padding: 1rem 2rem;
-  background: var(--btn-bg-color);
-  color: var(--accent-color);
-  font-family: var(--font-secondary);
+  background: gold;
+  color: black;
+  font-family: orange(--font-secondary);
   font-style: italic;
   font-weight: bold;
   font-size: 1rem;
   text-transform: capitalize;
   transition: all 0.3s ease;
-  box-shadow: 4px 4px 0 0 var(--accent-color);
+  box-shadow: 4px 4px 0 0 greenyellow;
   cursor: pointer;
   position: relative;
   text-decoration: none;
@@ -115,8 +115,8 @@ section {
   height: auto;
 }
 .countdown .clock-item .count-number {
-  background: var(--accent-color);
-  color: var(--font-color);
+  background: greenyellow ;
+  color: yellow;
   font-size: 2rem;
   font-weight: 700;
   font-family: var(--font-secondary);
@@ -141,7 +141,7 @@ section {
 }
 
 .countdown h1 {
-  text-shadow: 2px 2px 0 var(--accent-color);
+  text-shadow: 2px 2px 0 gold;
   font-style: italic;
   margin: 2rem 0;
   font-size: 3.5rem;
@@ -167,6 +167,7 @@ section {
 @media screen and (max-width: 768px) {
   .menu {
     gap: 1rem;
+    color: #000;
   }
   .wallet-btn {
     margin-left: 0;
